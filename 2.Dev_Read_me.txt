@@ -1,0 +1,24 @@
+Modes file (0,1,2,3,4):
+"Type", "Sets", "Reps", "Time", "Rest time"
+
+
+
+Selection file (0,1,2,3,4,5):
+"WorkoutFocus", "Modality", "Opposite",  "Imbalance", "Injury", "Exercise"
+
+
+Notes: 
+
+WorkoutFocus instead of muscle group because items such as say, vo2 max, grip strenth, etc... should be able to be included. 
+But "Workout Focus" should be either muscle group or specific goal.
+The "Modality" should be something like "Barbell", "weights", "kettlebell", "body weight", "indoors", etc... the 
+type of equipment or conditions needed. 
+This whole system relies on building a library in "Modes.csv" and "Selection.csv". 
+The csv files have a program built to write to them called "Database.py" which has a gui window. 
+
+The Selection database has been filled with general exercises as well as some helpful corrective exercises as starting grounds to address imbalances and injuries.
+One very odd bug is that to calculate the VO2 max, any numbers must be entered into the 1RM fields, but, the 1RM calculate button does not have to be pressed. 
+If both are desired then fill out the 1RM fields first and press the button to get results, then do VO2 Max.
+
+
+HEAVY editing and reworks were done in order to get this program to work. The project was pieced together until larger sections could be combined and simplified.  
